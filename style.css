@@ -1,0 +1,33 @@
+body{
+    background-color: #1F1D2B;
+    color: white;
+    font-family: roboto;
+}
+h1{
+    margin-right: 400px;
+    background-color: tomato;
+    height: 50px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    text-align:center;
+    margin-top: 0px;
+    padding: 9px;
+}
+div{
+    margin-left: 50px;
+}
+input , select{
+    border-color: tomato;
+    width: 250px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #1F1D2B;
+    color: white;
+}
+textarea{
+    border-color: tomato;
+    border-radius: 5px;
+    background-color: #1F1D2B;
+    color: white;
+}
+
