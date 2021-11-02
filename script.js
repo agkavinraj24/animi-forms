@@ -1,9 +1,10 @@
 form_validate(){
     let name = document.forms[animi][name].value;
-    
+    document.getElementById("Demo").innerHTML=name;
+    alert("Name Must be filled" + name);
     if (name == "")
     {
-        alert("Name Must be filled");
+      
         return false;
     }
     else if(name.length < 8)
